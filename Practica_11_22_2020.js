@@ -22,3 +22,12 @@ function isNumber(n) {
 
 
 console.log(isNumber(5,8))
+
+//La diferencia es que == primero intenta convertir los tipos antes de 
+//compararlos. El operador === no, hace una comparación directa aunque 
+//siempre retorna falso si los tipos son diferentes.
+
+1 == "1" // verdadero    
+1 === "1" // falso
+'' == 0 // verdadero
+'' === 0 // falso
