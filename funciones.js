@@ -44,3 +44,17 @@ function esPalindromo(str) {
 
 const output = esPalindromo('ANA')
 console.log(output);
+
+
+function calculaPrecioTotal(precio) {
+  var impuestos = 1.16;
+  var gastosEnvio = 10;
+  var precioTotal = ( precio * impuestos ) + gastosEnvio;
+}
+
+calculaPrecioTotal(23.34);
+
+console.log(23.34);
+
+
+
