@@ -39,13 +39,6 @@ console.log(car52)
 
 //Tarea creacion de Casa y Persona en objetso
 
-function casa = {
-    sala : "";
-    comedor: "";
-    cuartos: "";
-    get 
-}
-
 function Casa(cocina,comedor,banio){
     this.cocina = cocina;
     this.comedor= comedor;
